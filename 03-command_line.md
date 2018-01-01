@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * pwd = show current working directory path
+* mkdir = creating a directory
+* rmdir = deleting a directory
+* touch filen.ext = creating a file using `touch` command
+* del filn.ext = deleting a file
+* mv oldname newname = renaming a file
+* ls -a = listing all, including hidden, files in a directory
+* cp source destination = copying a file from one directory to another
+* cat filn.ext = print whole file
+* echo = look at and print environment details
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` = lists the files in the directory
+`ls -a`  = lists all, even hidden, files in the directory
+`ls -l`  = lists the files in directory with all details 
+`ls -lh` = lists the files in directory with all details, with file size specified in B/K/M/G
+`ls -lah`= lists all, even hidden, files in the directory with all details, with file size specified in B/K/M/G
+`ls -t`  = lists the files in the directory sorted based on last modified (desc)
+`ls -Glp`= lists the files in directory with all details, directories with / (Paths) and with a color highlight (from G)
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * -u	= displays files by the file access time
+* -R = displays subdirectories as well
+* -r = displays files in reverse order
+* -a = displays all files
+* -t = displays newest files first
 
 ---
 
@@ -51,7 +70,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It executes a given command on a series of things in order. For example, if you would want to move every file of a certain type over to a different owner, you'd be able to execute the change of ownership on each of them.
+
+E.g. find / -name .txt | xargs -n 1 chown new_owner
 
  
 
