@@ -98,7 +98,18 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequestists:
+>> - parameters are fixed 
+>> - parameters don't change / get updated during tests
+>> - experiments are repeatable, data is not fixed
+>> - e.g. 90% confidence interval: a collection of intervals with 90% of them containing the true parameter
+>>
+>> Bayesians:
+>> - data (sample) is considered fixed
+>> - probabilistic worldview, parameters are unknown and determined probabilistically
+>> - prior information is used and important
+>> - statistics is subjective, not neutral
+>> - e.g. 90% confidence interval: an interval that has a 90% chance of containing the true parameter
 
 ---
 
