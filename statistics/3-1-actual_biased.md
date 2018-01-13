@@ -10,7 +10,7 @@
     import first
     import thinkstats2
     import thinkplot
-
+    
     def BiasPmf(pmf, label):
         new_pmf = pmf.Copy(label=label)
 
@@ -19,15 +19,15 @@
 
         new_pmf.Normalize()
         return new_pmf
-
+        
     resp = nsfg.ReadFemResp()
-
-    # Pmf actual - with original data
+    
+    # Pmf actual - with original data
     pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')
-
+    
     # Pmf biased - constructed
     biased = BiasPmf(pmf, label='biased')
-
+    
     # Plot both distributions
     thinkplot.PrePlot(2)
     thinkplot.Pmfs([pmf, biased])
