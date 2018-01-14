@@ -98,7 +98,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Frequestists:
+>> Frequentists:
 >> - parameters are fixed 
 >> - parameters don't change / get updated during tests
 >> - experiments are repeatable, data is not fixed
