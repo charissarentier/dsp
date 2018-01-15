@@ -27,6 +27,6 @@
     Explanation:
     Yes the distribution is uniform. First of all, the pmf shows that each of the outcomes 
     between 0 and 1 occurs about equally often in the sample. 
-    Additionally, the diagonal CDF shows that the sample's 
-    percentile ranks were distributed uniformly among the population, 
+    Additionally, the diagonal CDF shows that the sample's percentile ranks 
+    were distributed uniformly among the population, 
     making the CDF of the percentile ranks a diagonal line.
