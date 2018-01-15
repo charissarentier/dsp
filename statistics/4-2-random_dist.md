@@ -16,15 +16,17 @@
     r = np.random.random(1000)
 
     pmf = thinkstats2.Pmf(r)
-    thinkplot.Pmf(pmf, linewidth=0.1)
-    thinkplot.Config(xlabel='Random variate', ylabel='PMF', xlim=[0.0,1.0])
+    thinkplot.Pmf(pmf)
+    thinkplot.Config(xlabel='Random variate', ylabel='PMF', xlim=[0.0,1.0], legend=False)
 
     cdf = thinkstats2.Cdf(r)
     thinkplot.Cdf(cdf)
-    thinkplot.Config(xlabel='Random variate', ylabel='CDF', xlim=[0.0,1.0], ylim=[0.0,1.0])
+    thinkplot.Config(xlabel='Random variate', ylabel='CDF', xlim=[0.0,1.0], ylim=[0.0,1.0], legend=False)
     
     
     Explanation:
-    Yes the distribution is uniform. The diagonal CDF shows that the sample's 
+    Yes the distribution is uniform. First of all, the pmf shows that each of the outcomes 
+    between 0 and 1 occurs about equally often in the sample. 
+    Additionally, the diagonal CDF shows that the sample's 
     percentile ranks were distributed uniformly among the population, 
     making the CDF of the percentile ranks a diagonal line.
