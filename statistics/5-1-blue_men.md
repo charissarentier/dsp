@@ -7,7 +7,6 @@
     mu = 178
     sigma = 7.7
     heights = scipy.stats.norm(loc=mu, scale=sigma)
-    heights.cdf(mu-sigma)
     low = heights.cdf(177.8)
     high = heights.cdf(185.4)
     print(round(((high-low)*100),1),"%")
